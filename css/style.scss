@@ -1,0 +1,53 @@
+$dark: #2B2B2B; //CHARLESTON GREEN
+$light: #FFD4C1; //VERY PALE ORANGE
+$yellow: #F8A351; // SANDY BROWN
+$orange: #F85B51; // SUNSET ORANGE
+$folly: #F80051; //FOLLY
+$gradient-1: #FBA353;
+$gradient-2: #ED1653;
+
+$title-font: 'Alegreya', serif;
+
+.title-font {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+body {
+    background: linear-gradient(135deg, $gradient-1, $gradient-2);
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 100px;
+    @extend .title-font;
+    p {
+        letter-spacing: .5px;
+    }
+}
+
+.lyrics {
+    padding: 100px 50px;
+    p {
+        line-height: 2.5;
+    }
+}
+
+
+
